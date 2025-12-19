@@ -1,0 +1,26 @@
+Environment Information
+=======================
+
+Hardware:
+- Platform: Google Colab
+- GPU: NVIDIA T4 (16GB VRAM)
+- CPU: Intel Xeon @ 2.2GHz (2 cores)
+- RAM: 12.7 GB
+- Storage: ~100 GB
+
+Software:
+- Python: 3.11
+- NumPy: 1.24.0
+- SciPy: 1.10.0
+- scikit-image: 0.21.0
+- Pillow: 9.0.0
+- vesuvius: 0.1.0
+
+Timing (per chunk 100x500x500):
+- Data loading: ~50 seconds (network dependent)
+- Algorithm compute: ~3-4 seconds
+- Mesh generation: ~10-15 seconds
+- Total: ~65 seconds per chunk
+
+Note: Data loading time is dominated by network I/O from Vesuvius API.
+Local processing with cached data would reduce to ~15 seconds per chunk.

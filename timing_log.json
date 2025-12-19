@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-19T17:00:00Z",
+  "algorithm": "Inverse Hensel Topological Recognition",
+  "human_hours": 0,
+  "fully_automatic": true,
+  
+  "scroll1": {
+    "chunk": {
+      "z_start": 5000,
+      "y_start": 2000,
+      "x_start": 2000,
+      "size": "100x500x500"
+    },
+    "center": [4048, 3944],
+    "layers_detected": 67,
+    "vertices": 211336,
+    "faces": 414829,
+    "mean_coverage_per_strip_percent": 44.8,
+    "timing_seconds": {
+      "data_load": 52.5,
+      "unwrap_compute": 3.9,
+      "mesh_generation": 15.0,
+      "texture_extraction": 5.0,
+      "total": 76.4
+    }
+  },
+  
+  "scroll5": {
+    "chunk": {
+      "z_start": 2000,
+      "y_start": 1000,
+      "x_start": 1000,
+      "size": "100x500x500"
+    },
+    "center": [2500, 2500],
+    "layers_detected": 169,
+    "vertices": 198684,
+    "faces": 384918,
+    "mean_coverage_per_strip_percent": 35.7,
+    "timing_seconds": {
+      "data_load": 50.0,
+      "unwrap_compute": 3.5,
+      "mesh_generation": 12.0,
+      "texture_extraction": 4.5,
+      "total": 70.0
+    }
+  },
+  
+  "scaling_validation": {
+    "description": "4 chunks processed around Scroll 1",
+    "chunks_processed": 4,
+    "total_layers_detected": 315,
+    "total_time_seconds": 212.8,
+    "positions": [
+      {"y": 2000, "x": 2000, "layers": 67, "time_s": 52.5},
+      {"y": 2500, "x": 2000, "layers": 83, "time_s": 52.6},
+      {"y": 2000, "x": 2500, "layers": 93, "time_s": 52.2},
+      {"y": 3000, "x": 3000, "layers": 72, "time_s": 55.5}
+    ]
+  }
+}
